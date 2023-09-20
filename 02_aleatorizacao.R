@@ -49,7 +49,7 @@ gap <- function() {
 
 # Simulando o experimento 10.000 vezes
 sim <- replicate(10000, gap())
-mean(sim) # Este é o ATE, pois o tratamento foi atrubuido aleatoriamente 
+mean(sim) # Este é o ATE, pois o tratamento foi atribuido aleatoriamente 
 
 # Exemplo 3 ------------------------------------------------------------------
 # Importando base 
